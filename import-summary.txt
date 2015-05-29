@@ -1,0 +1,192 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* ULTrails.apk
+* ULTrails.zip
+* app.key
+* ic_launcher-web.png
+* proguard-project.txt
+* ul arts/
+* ul arts/.DS_Store
+* ul arts/UL Flora and Fauna Trail.pdf
+* ul arts/UL Floral Trail Tree List.xlsx
+* ul arts/UL_TREES_JPEGS/
+* ul arts/UL_TREES_JPEGS/.DS_Store
+* ul arts/UL_TREES_JPEGS/ul-tree-01.png
+* ul arts/UL_TREES_JPEGS/ul-tree-02.png
+* ul arts/UL_TREES_JPEGS/ul-tree-03.png
+* ul arts/UL_TREES_JPEGS/ul-trees-03.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-04.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-05.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-06.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-07.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-08.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-09.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-10.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-11.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-12.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-13.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-14.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-15.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-16.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-17.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-18.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-19.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-20.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-21.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-22.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-23.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-24.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-25.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-26.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-27.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-28.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-29.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-30.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-31.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-32.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-33.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-34.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-35.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-36.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-37.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-38.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-39.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-40.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-41.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-42.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-43.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-44.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-45.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-46.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-47.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-48.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-49.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-50.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-51.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-52.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-53.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-54.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-55.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-56.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-57.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-58.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-59.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-60.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-61.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-62.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-63.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-64.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-65.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-66.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-67.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-68.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-69.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-70.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-71.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-72.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-73.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-74.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-75.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-76.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-77.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-78.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-79.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-80.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-81.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-83.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-84.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-85.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-86.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-87.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-88.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-89.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-90.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-91.jpg
+* ul arts/UL_TREES_JPEGS/ul-trees-92.jpg
+* ul arts/new/
+* ul arts/new/.DS_Store
+* ul arts/new/ul-trees-01.jpg
+* ul arts/new/ul-trees-02.jpg
+* ul arts/new/ul-trees-03.jpg
+* ul arts/new/ul-trees-04.jpg
+* ul arts/new/ul-trees-05.jpg
+* ul arts/new/ul-trees-06.jpg
+* ul arts/new/ul-trees-07.jpg
+* ul arts/new/ul-trees-08.jpg
+* ul arts/new/ul-trees-10.jpg
+* ul arts/new/ul-trees-11.jpg
+* ul arts/new/ul-trees-12.jpg
+* ul arts/new/ul-trees-13.jpg
+* ul arts/new/ul-trees-14.jpg
+* ul arts/new/ul-trees-15.jpg
+* ul arts/new/ul-trees-16.jpg
+* ul arts/new/ul-trees-17.jpg
+* ul arts/new/ul-trees-18.jpg
+* ul arts/new/ul-trees-19.jpg
+* ul arts/new/ul-trees-20.jpg
+* ul arts/new/ul-trees-21.jpg
+* ul arts/new/ul-trees-22.jpg
+* ul arts/new/ul-trees-23.jpg
+* ul arts/new/ul-trees-24.jpg
+* ul arts/new/ul-trees-26.jpg
+* ul arts/new/ul-trees-27.jpg
+* ul arts/new/ul-trees-28.jpg
+* ul arts/new/ul-trees-29.jpg
+* ul arts/new/ul-trees-30.jpg
+* ul arts/new/ul-trees-31.jpg
+* ul arts/new/ul-trees-32.jpg
+* ul arts/new/ul-trees-33.jpg
+* ularts_icons/
+* ularts_icons/.DS_Store
+* ularts_icons/120icon.png
+* ularts_icons/120icon_1.png
+* ularts_icons/8080.png
+* ularts_icons/icon512.png
+* ularts_icons/icon512_1.png
+* ularts_icons/icon58.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
