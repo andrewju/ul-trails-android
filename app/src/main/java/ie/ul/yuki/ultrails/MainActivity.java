@@ -17,12 +17,12 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-	WebView mWebView;  
+	WebView mWebView;
 
 	@SuppressLint("SetJavaScriptEnabled")
-	
+
 	protected boolean isNetworkAvailable() {
-	    ConnectivityManager connectivityManager 
+	    ConnectivityManager connectivityManager
 	          = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
 	    NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
 	    return activeNetworkInfo != null && activeNetworkInfo.isConnected();
@@ -32,17 +32,17 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		mWebView = (WebView) findViewById(R.id.webView1);
 		mWebView.getSettings().setJavaScriptEnabled(true);
-        mWebView.requestFocus();  
+        mWebView.requestFocus();
         WebViewClient newClient = new WebViewClient() {
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
                 mWebView.loadUrl("file:///android_asset/new.html");
-    			Toast.makeText(getBaseContext(), "No internet available!", Toast.LENGTH_LONG).show();
+    			Toast.makeText(getBaseContext(), "Error happened, try again later please!", Toast.LENGTH_LONG).show();
 
             }
-        	public boolean shouldOverrideUrlLoading(WebView view, String url) {  
+        	public boolean shouldOverrideUrlLoading(WebView view, String url) {
         		if (isNetworkAvailable() == false)
         			Toast.makeText(getBaseContext(), "No internet available!", Toast.LENGTH_LONG).show();
         		else {
@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
             		intent.setData(Uri.parse("geo:?q="+locValue+"("+locName+")&z=15"));
             		startActivity(intent);
             		return true;
-            		
+
             	}
             	else if (url.contains("facebook")) {
             		String tmp[] = url.toString().split("/");
@@ -73,30 +73,30 @@ public class MainActivity extends Activity {
             		return true;
             	}
             	else {
-            		return false;  
+            		return false;
             	}}
         		return true;
-            }  
-     
-        };  
+            }
+
+        };
 		mWebView.setWebViewClient(newClient);
 		mWebView.setWebChromeClient(new WebChromeClient() {
 			 public void onGeolocationPermissionsShowPrompt(String origin, android.webkit.GeolocationPermissions.Callback callback) {
 			    callback.invoke(origin, true, false);
 			 }
 			});
-		mWebView.loadUrl("http://skynet.ie/~yuki/app/index1.html");
-		
+		mWebView.loadUrl("http://www.skynet.ie/~yuki/app/index1.html");
+
 	}
-	
-    public boolean onKeyDown(int keyCode, KeyEvent event) {  
-        if ((keyCode == KeyEvent.KEYCODE_BACK) && mWebView.canGoBack()) {  
-            mWebView.goBack();  
-            return true;  
-        }  
-        return false;  
-    }  
-    
-   
+
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if ((keyCode == KeyEvent.KEYCODE_BACK) && mWebView.canGoBack()) {
+            mWebView.goBack();
+            return true;
+        }
+        return false;
+    }
+
+
 
 }

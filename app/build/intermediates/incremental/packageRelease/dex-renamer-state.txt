@@ -1,0 +1,4 @@
+#Sat Feb 25 13:34:26 GMT 2017
+base.0=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

@@ -1,0 +1,7 @@
+#Sat Feb 25 13:32:52 GMT 2017
+base.0=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_90a360cb765f198aa540e07f48b9800a176f907c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a40cb74eba3b19e9eda7e34000800d9f1f1e5554/classes.dex
+base.1=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a40cb74eba3b19e9eda7e34000800d9f1f1e5554
+file.0=/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_90a360cb765f198aa540e07f48b9800a176f907c/classes.dex

@@ -2,11 +2,40 @@
 <items version="2" >
 
     <item
-        jar="/Users/andrewju/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="1604598b4ac74f6229ab639ba532b6c662859f9c">
+        <dex dex="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_90a360cb765f198aa540e07f48b9800a176f907c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/andrew/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/andrewju/AndroidstudioProjects/ul-arts-project/ULTrails/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-fb62640b18c5198b7fc3cb1fcf2e8aefbe258d95.jar" />
+        <dex dex="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_c2fcea96c736e6c491ed54c28963096694706464/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9724cef16c285a91749a6ea16abcdc9bdd94a455">
+        <dex dex="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a40cb74eba3b19e9eda7e34000800d9f1f1e5554/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/andrew/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/andrew/Documents/ul-trails-android/app/build/intermediates/pre-dexed/release/support-v4-19.1.0_c2fcea96c736e6c491ed54c28963096694706464.jar" />
     </item>
 
 </items>

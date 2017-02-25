@@ -1,2 +1,0 @@
-/Users/andrewju/AndroidstudioProjects/ul-arts-project/ULTrails/app/build/intermediates/classes/release
-/Users/andrewju/AndroidstudioProjects/ul-arts-project/ULTrails/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-fb62640b18c5198b7fc3cb1fcf2e8aefbe258d95.jar
